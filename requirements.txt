@@ -1,0 +1,5 @@
+autoflake
+flake8
+isort
+mypy
+pyproject-flake8

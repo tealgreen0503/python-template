@@ -1,0 +1,22 @@
+[tool.autoflake]
+recursive = true
+in_place = true
+remove_all_unused_imports = true
+remove_unused_variables = true
+ignore_init_module_imports = true
+
+[tool.black]
+target-version = ['py311']
+line-length = 119
+
+[tool.isort]
+profile = "black"
+line_length = 119
+
+[tool.flake8]
+extend-ignore = ["E203"]
+max-line-length = 119
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
