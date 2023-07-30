@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "vivaxy.vscode-conventional-commits",
+        "github.copilot",
+        "github.copilot-chat",
+        "eamodio.gitlens",
+        "ms-ceintl.vscode-language-pack-ja",
+        "ms-python.python",
+        "charliermarsh.ruff"
+    ],
+    "unwantedRecommendations": [
+        "ms-python.vscode-pylance"
+    ]
+}
